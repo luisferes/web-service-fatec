@@ -15,6 +15,10 @@ def home():
 def usuarios():
   return 'Olá, Usuários!'
 
+@app.route('/produtos')
+def usuarios():
+  return 'Todos os produtos deverão ser listados aqui!'
+
 # 4. Execute o aplicativo
 if __name__ == '__main__':
   # app.run() inicia o servidor web de desenvolvimento
